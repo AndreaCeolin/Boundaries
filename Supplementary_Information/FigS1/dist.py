@@ -15,10 +15,10 @@ def jaccard(P1, P2):
     id = 0.0
     dif = 0.0
     for i in range(len(P1)):
-        #an identity on '1' is counted as an identity
+        #an identity on '+' is counted as an identity
         if P1[i] == P2[i] == "+":
             id += 1
-        #differences are counted on the characters that exhibit a '1'/'0' contrast. '?' are ignored
+        #differences are counted on the characters that exhibit a '+'/'-' contrast. '0' and '?' are ignored
         elif (P1[i] == "+" and P2[i] == "-") or (P1[i] == "-" and P2[i] == "+"):
             dif += 1
     #return Jaccard distance
