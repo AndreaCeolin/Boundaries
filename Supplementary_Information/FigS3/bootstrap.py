@@ -3,10 +3,10 @@
 """
 Created on Tue Jan  3 17:30:42 2017
 
-Computes quasi-bootstrapped distance matrices according to the Jaccard distance ('00' '1?' '?1' '??' ignored)
-Assumes alphabet to be 1,0,?
+Computes quasi-bootstrapped distance matrices according to the Jaccard distance ('--' '+0' '-0' '00' ignored)
+Assumes alphabet to be +,-,0
 
-@authors: anonymous and anonymous
+@authors: Andrea Ceolin and Luca Bortolussi
 """
 
 
