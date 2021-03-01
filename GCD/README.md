@@ -1,3 +1,5 @@
+# At the Boundaries of Syntactic Prehistory - Great Circle Distances
+
 The folder contains the following files:
 
 1. **gcd+jaccard.py.txt**: this script takes a list of geographic coordinates and a list of syntactic parameters and calculates cross-family distances. The syntax is ```python3 gcd+jaccard.py geo_coord syn_param```.
