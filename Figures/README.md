@@ -1,3 +1,5 @@
+# At the Boundaries of Syntactic Prehistory - Figures
+
 The folder contains the following files:
 
 1. **jaccard_distances.txt**: this is the table of syntactic distances (TableS3) formatted in [PHYLIP](https://evolution.genetics.washington.edu/phylip.html) format. It can be used as an input for all PHYLIP programs.
