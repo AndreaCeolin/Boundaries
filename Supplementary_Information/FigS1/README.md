@@ -1,4 +1,4 @@
-By loading ```TableS3``` on the online software [Morpheus](https://software.broadinstitute.org/morpheus), a heatmap can be obtained. We recommend performing *Hierarchical Clustering*, specifying the options:
+By loading ```TableS3``` on the online software [Morpheus](https://software.broadinstitute.org/morpheus), a heatmap can be obtained (FigS1.png). We recommend performing *Hierarchical Clustering*, specifying the options:
 
      - Metric -> Matrix values (from a precomputed distance matrix)
      - Linkage Method -> Average
