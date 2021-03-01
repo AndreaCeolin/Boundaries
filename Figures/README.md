@@ -4,6 +4,6 @@ The folder contains the following files:
 
 2. **tree**: this is the output tree (in Newick format) that can be obtained by running the ```neighbor``` program from the PHYLIP package on the distance matrix.
 
-3. **Fig1.nex**: this is the tree in Nexus format. By visualising it through [Mesquite](https://www.mesquiteproject.org), you can obtain the tree in Fig1. and Fig2.
+3. **Fig1.nex**: this is the tree in Nexus format. By visualising it through [Mesquite](https://www.mesquiteproject.org), you can obtain the tree in Figure 1 from the main text.
 
 4. **Fig1.pdf**: Figure 1 from the main text.
