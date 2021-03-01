@@ -1,4 +1,6 @@
-This folder contains the instructions and the files to generate the UPGMA tree in the paper.
+# At the Boundaries of Syntactic Prehistory - FigS3
+
+This folder contains the instructions and the files to generate the bootstrapped UPGMA tree in ```FigS3.pdf```.
 
 1. **table_labels.txt**: calculating the UPGMA tree first requires modifying the ```table.txt``` file using the labels instead of the full names of the languages, since the software that we use to calculate the UPGMA tree does not allow long names. We therefore create a file called ```table_labels.txt```. 
 
