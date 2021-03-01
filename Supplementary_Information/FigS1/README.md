@@ -1,3 +1,5 @@
+# At the Boundaries of Syntactic Prehistory - FigS1
+
 By loading ```TableS3``` on the online software [Morpheus](https://software.broadinstitute.org/morpheus), the heatmap in ```FigS1.png``` can be obtained. We recommend performing *Hierarchical Clustering*, specifying the options:
 
      - Metric -> Matrix values (from a precomputed distance matrix)
