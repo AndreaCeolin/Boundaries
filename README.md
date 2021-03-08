@@ -1,6 +1,6 @@
 # At the Boundaries of Syntactic Prehistory
 
-Scripts and data from the paper "Ceolin, A., Guardiano, C., Irimia, M. A., Longobardi, G., Bortolussi L., & Sgarro A. (to appear, 2021). At the Boundaries of Syntactic Prehistory. Philosophical Transactions of the Royal Society B. 20200197. doi: 10.1098/rstb.2020.0197". 
+Scripts and data from the paper "Ceolin, A., Guardiano, C., Longobardi, G., Irimia, M. A., Bortolussi L., & Sgarro A. (2021). At the Boundaries of Syntactic Prehistory. Philosophical Transactions of the Royal Society B. 376: 20200197. doi: 10.1098/rstb.2020.0197". 
 
 The repository contains the following files:
 
