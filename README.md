@@ -10,7 +10,7 @@ The repository contains the following files:
 
 2. **Table1.csv**: this file contains some information about the languages of the dataset
 
-3. **dist.py**: this Python3 script takes the file ```table.txt``` as input and prints ```TableS3```, which contains the Jaccard distances in matrix format. The syntax is simply ```python3 dist.py table.txt```. Note that features where either language shows a '0' are ignored for the purposes of the distance computation.
+3. **dist.py**: this Python3 script takes the file ```table.txt``` as input and prints ```TableS3```, which contains the Jaccard distances in matrix format. The syntax is ```python3 dist.py table.txt```. Note that features where either language shows a '0' are ignored for the purposes of the distance computation.
 
 4. **TableS3**: this is the output of ```python3 dist.py table.txt```.
 
