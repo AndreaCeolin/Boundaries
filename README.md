@@ -4,6 +4,8 @@ Scripts and data from the paper:
 
 > Ceolin, A., Guardiano, C., Longobardi, G., Irimia, M. A., Bortolussi L., & Sgarro A. (2021). *At the Boundaries of Syntactic Prehistory*. Philosophical Transactions of the Royal Society B. 376: 20200197. doi: 10.1098/rstb.2020.0197". 
 
+The code presented in this repository is licensed under MIT license. For the figures and the dataset, please refer to the journal policies.
+
 The repository contains the following files:
 
 1. **table.txt**: this file contains the name of the languages and their 94 associated features (with values ```+, -, 0```), separated by a tab. 
