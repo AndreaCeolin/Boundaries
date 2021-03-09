@@ -14,7 +14,7 @@ The repository contains the following files:
 
 4. **TableS3**: this is the output of ```python3 dist.py table.txt```.
 
-5. **coord.txt**: this file contains the coordinates of the populations sampled.
+5. **coord.txt**: this file contains the geographic coordinates of the populations sampled.
 
 6. **gcd.py**: this script is used to print Great Circle Distances from ```coord.txt```, by simply calling```python3 gcd.py``` The output file is ```TableS5```.
 
