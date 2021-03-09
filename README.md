@@ -20,7 +20,7 @@ The repository contains the following files:
 
 7. **TableS5**: this is the output of ```python3 gcd.py```.
 
-8.  **checker.py**: a useful tool to check whether the values in the dataset are compatible with the structural implications. It can be called with ```python3 dist.py table.txt``` and it returns a file called errors_table.txt with a list of errors.   
+8.  **checker.py**: a tool to check whether the values in the dataset are compatible with the structural implications. It can be called with ```python3 dist.py table.txt``` and it returns a file called ```errors_table.txt``` with a list of errors.   
 
 9. **Artificial_Langs**: this folder contains the material used for the generation of the Artificial Languages.
 
