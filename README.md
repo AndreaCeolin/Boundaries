@@ -2,7 +2,7 @@
 
 Scripts and data from the paper:
 
-> Ceolin, A., Guardiano, C., Longobardi, G., Irimia, M. A., Bortolussi L., & Sgarro A. (2021). *At the Boundaries of Syntactic Prehistory*. Philosophical Transactions of the Royal Society B. 376: 20200197. doi: 10.1098/rstb.2020.0197". 
+> Ceolin, A., Guardiano, C., Longobardi, G., Irimia, M. A., Bortolussi L., & Sgarro A. (2021). *At the Boundaries of Syntactic Prehistory*. Philosophical Transactions of the Royal Society B. 376: 20200197. 
 
 The code contained in this repository is licensed under MIT license. For the figures and the dataset, please refer to the journal policies.
 
