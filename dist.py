@@ -25,10 +25,65 @@ def jaccard(P1, P2):
     dist = dif / (dif + id)
     return dist
 
+
+def hamming(P1, P2):
+    """Computes the Hamming distance between two strings.
+
+    Args:
+        P1: The first string.
+        P2: The second string.
+
+    Returns:
+        The Hamming distance between the two strings.
+    """
+
+    # Check if the strings are the same length
+    if len(P1) != len(P2):
+        raise ValueError("Strings must be the same length. Hamming extension must be implemented for different string lengths.")
+
+    # Initialize a counter for the number of mismatches
+    num_mismatches = 0
+    length = 0
+
+    # Iterate over the strings and count the number of mismatches
+    # this excludes the 0 items and their index in the other string
+    for char1, char2 in zip(P1, P2):
+        if char1 != '0' and char2 != '0':
+            length += 1
+            if char1 != char2:
+                num_mismatches += 1
+
+    normalized_hamming_distance = num_mismatches / length
+
+    return normalized_hamming_distance
+
+'''
+Read a list of languages and features, calculate Hamming distances, and print them in matrix format
+'''
+def main_hamming(parameters):
+    #store the name of each language, which is the first element of each line
+    languages = [line.split()[0] for line in open(parameters, 'r')]
+    with open(parameters, 'r') as f:
+        pars = f.readlines()
+        dist = defaultdict(dict)
+        #store the pairwise distances in a dictionary
+        for lang1 in pars:
+            for lang2 in pars:
+                L1 = lang1.split()
+                L2 = lang2.split()
+                dist[L1[0]][L2[0]] = round(hamming(L1,L2), 3)
+    #print dictionary in matrix format
+    output = open('TableS3_hamming', 'w')
+    output.write('\t' + '\t'.join(languages) + '\n')
+    for lang in languages:
+        output.write(lang + '\t' + '\t'.join([str(dist[lang][lang2]) for lang2 in languages]) + '\n')
+    output.close()
+
+
 '''
 Read a list of languages and features, calculate Jaccard distances, and print them in matrix format
 '''
-def main(parameters):
+def main_jaccard(parameters):
     #store the name of each language, which is the first element of each line
     languages = [line.split()[0] for line in open(parameters, 'r')]
     with open(parameters, 'r') as f:
@@ -49,4 +104,5 @@ def main(parameters):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main_jaccard(sys.argv[1])
+    main_hamming(sys.argv[1])
