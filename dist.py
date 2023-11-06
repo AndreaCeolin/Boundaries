@@ -43,14 +43,17 @@ def hamming(P1, P2):
 
     # Initialize a counter for the number of mismatches
     num_mismatches = 0
+    length = 0
 
     # Iterate over the strings and count the number of mismatches
-    # this excludes the 0 items
-    for i in range(len(P1)):
-        if P1[i] == "+" and P2[i] == "-" or P1[i] == "-" and P2[i] == "+":
-            num_mismatches += 1
+    # this excludes the 0 items and their index in the other string
+    for char1, char2 in zip(P1, P2):
+        if char1 != '0' and char2 != '0':
+            length += 1
+            if char1 != char2:
+                num_mismatches += 1
 
-    normalized_hamming_distance = num_mismatches / len(P1)
+    normalized_hamming_distance = num_mismatches / length
 
     return normalized_hamming_distance
 
